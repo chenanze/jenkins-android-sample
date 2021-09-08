@@ -1,7 +1,7 @@
 pipeline{
     agent {
         docker {
-            image 'allbears/jenkins-android:1.0.1'
+            image 'circleci/android'
         }
     }
     stages {
