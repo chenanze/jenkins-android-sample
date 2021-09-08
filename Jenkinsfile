@@ -1,7 +1,7 @@
 pipeline{
     agent {
         docker {
-            image 'circleci/android'
+            image 'circleci/android:api-28-node'
         }
     }
     stages {
